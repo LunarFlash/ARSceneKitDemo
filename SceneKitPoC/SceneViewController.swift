@@ -69,6 +69,11 @@ extension SceneViewController: QLPreviewControllerDataSource {
 }
 
 extension SceneViewController {
+
+    /**
+     Load and OBJ model with custom lighting effects instead of default lighting.
+     - Note: Colin can probably resolve this with his expertise: my lack of understanding of how mtl obj and jpg works, just loading obj does not load any textures. 
+     */
     func setupOBJ() {
 
         // 1: Load .obj file
@@ -97,7 +102,7 @@ extension SceneViewController {
         scene?.rootNode.addChildNode(ambientLightNode)
 
         // If you don't want to fix manually the lights
-        sceneView.autoenablesDefaultLighting = true
+        //sceneView.autoenablesDefaultLighting = true
 
         // Allow user to manipulate camera
         sceneView.allowsCameraControl = true
