@@ -38,7 +38,7 @@ class SceneViewController: UIViewController {
         guard let bg = UIImage(named: "onboarding-background") else { return }
         view.backgroundColor = UIColor(patternImage: bg)
         //setupOBJ()
-        setupUSSZ()
+        setupUSDZ()
     }
 
     func setupUSDZ() {
