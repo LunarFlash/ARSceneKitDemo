@@ -16,7 +16,7 @@ class SceneViewController: UIViewController {
     @IBOutlet weak var sceneView: SCNView!
 
     @IBAction func didPressRefresh(_ sender: Any) {
-        setupUSSZ()
+        setupUSDZ()
     }
 
     @IBAction func didPressAction(_ sender: Any) {
@@ -41,7 +41,7 @@ class SceneViewController: UIViewController {
         setupUSSZ()
     }
 
-    func setupUSSZ() {
+    func setupUSDZ() {
         currentModelName = ["Corona", "Helmet", "FILA"].filter{ $0 != currentModelName }.randomElement()
         guard let url = currentModelUrl else { return }
         let scene = try? SCNScene(url: url, options: [.checkConsistency: true])
