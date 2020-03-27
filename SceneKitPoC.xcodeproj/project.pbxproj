@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		DE1F1301242D52E20015C5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1300242D52E20015C5AC /* AppDelegate.swift */; };
 		DE1F1303242D52E20015C5AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1302242D52E20015C5AC /* SceneDelegate.swift */; };
-		DE1F1305242D52E20015C5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1304242D52E20015C5AC /* ViewController.swift */; };
+		DE1F1305242D52E20015C5AC /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1304242D52E20015C5AC /* SceneViewController.swift */; };
 		DE1F1308242D52E20015C5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1F1306242D52E20015C5AC /* Main.storyboard */; };
 		DE1F130A242D52E50015C5AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1F1309242D52E50015C5AC /* Assets.xcassets */; };
 		DE1F130D242D52E50015C5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1F130B242D52E50015C5AC /* LaunchScreen.storyboard */; };
 		DE1F1318242D52E50015C5AC /* SceneKitPoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1317242D52E50015C5AC /* SceneKitPoCTests.swift */; };
 		DE1F1323242D52E50015C5AC /* SceneKitPoCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1322242D52E50015C5AC /* SceneKitPoCUITests.swift */; };
+		DE1F1332242D55850015C5AC /* Camera.mtl in Resources */ = {isa = PBXBuildFile; fileRef = DE1F1330242D55840015C5AC /* Camera.mtl */; };
+		DEFF70B4242D579800A6C0AD /* MDLMaterial+Mav.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF70B3242D579800A6C0AD /* MDLMaterial+Mav.swift */; };
+		DEFF70B6242D57ED00A6C0AD /* Camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70B5242D57ED00A6C0AD /* Camera.jpg */; };
+		DEFF70BB242D5B3300A6C0AD /* Camera.obj in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70BA242D5B3300A6C0AD /* Camera.obj */; };
+		DEFF70BD242D5F3600A6C0AD /* Helmet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70BC242D5F3500A6C0AD /* Helmet.usdz */; };
+		DEFF70BF242D69F700A6C0AD /* FILA.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70BE242D69F600A6C0AD /* FILA.usdz */; };
+		DEFF70C1242D87D900A6C0AD /* Corona.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70C0242D87D800A6C0AD /* Corona.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,7 @@
 		DE1F12FD242D52E20015C5AC /* SceneKitPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1F1300242D52E20015C5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1F1302242D52E20015C5AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE1F1304242D52E20015C5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE1F1304242D52E20015C5AC /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		DE1F1307242D52E20015C5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE1F1309242D52E50015C5AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1F130C242D52E50015C5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		DE1F131E242D52E50015C5AC /* SceneKitPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneKitPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1F1322242D52E50015C5AC /* SceneKitPoCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitPoCUITests.swift; sourceTree = "<group>"; };
 		DE1F1324242D52E50015C5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1F1330242D55840015C5AC /* Camera.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Camera.mtl; sourceTree = "<group>"; };
+		DEFF70B3242D579800A6C0AD /* MDLMaterial+Mav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDLMaterial+Mav.swift"; sourceTree = "<group>"; };
+		DEFF70B5242D57ED00A6C0AD /* Camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Camera.jpg; sourceTree = "<group>"; };
+		DEFF70BA242D5B3300A6C0AD /* Camera.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Camera.obj; sourceTree = "<group>"; };
+		DEFF70BC242D5F3500A6C0AD /* Helmet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Helmet.usdz; sourceTree = "<group>"; };
+		DEFF70BE242D69F600A6C0AD /* FILA.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = FILA.usdz; sourceTree = "<group>"; };
+		DEFF70C0242D87D800A6C0AD /* Corona.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Corona.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,15 @@
 		DE1F12FF242D52E20015C5AC /* SceneKitPoC */ = {
 			isa = PBXGroup;
 			children = (
+				DEFF70B7242D58F400A6C0AD /* 3d Models */,
 				DE1F1300242D52E20015C5AC /* AppDelegate.swift */,
 				DE1F1302242D52E20015C5AC /* SceneDelegate.swift */,
-				DE1F1304242D52E20015C5AC /* ViewController.swift */,
+				DE1F1304242D52E20015C5AC /* SceneViewController.swift */,
 				DE1F1306242D52E20015C5AC /* Main.storyboard */,
 				DE1F1309242D52E50015C5AC /* Assets.xcassets */,
 				DE1F130B242D52E50015C5AC /* LaunchScreen.storyboard */,
 				DE1F130E242D52E50015C5AC /* Info.plist */,
+				DEFF70B3242D579800A6C0AD /* MDLMaterial+Mav.swift */,
 			);
 			path = SceneKitPoC;
 			sourceTree = "<group>";
@@ -126,6 +142,27 @@
 				DE1F1324242D52E50015C5AC /* Info.plist */,
 			);
 			path = SceneKitPoCUITests;
+			sourceTree = "<group>";
+		};
+		DEFF70B7242D58F400A6C0AD /* 3d Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEFF70C2242D8FAC00A6C0AD /* OBJ */,
+				DEFF70BE242D69F600A6C0AD /* FILA.usdz */,
+				DEFF70BC242D5F3500A6C0AD /* Helmet.usdz */,
+				DEFF70C0242D87D800A6C0AD /* Corona.usdz */,
+			);
+			path = "3d Models";
+			sourceTree = "<group>";
+		};
+		DEFF70C2242D8FAC00A6C0AD /* OBJ */ = {
+			isa = PBXGroup;
+			children = (
+				DEFF70B5242D57ED00A6C0AD /* Camera.jpg */,
+				DE1F1330242D55840015C5AC /* Camera.mtl */,
+				DEFF70BA242D5B3300A6C0AD /* Camera.obj */,
+			);
+			path = OBJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFF70BD242D5F3600A6C0AD /* Helmet.usdz in Resources */,
+				DEFF70BF242D69F700A6C0AD /* FILA.usdz in Resources */,
 				DE1F130D242D52E50015C5AC /* LaunchScreen.storyboard in Resources */,
+				DEFF70C1242D87D900A6C0AD /* Corona.usdz in Resources */,
 				DE1F130A242D52E50015C5AC /* Assets.xcassets in Resources */,
+				DEFF70BB242D5B3300A6C0AD /* Camera.obj in Resources */,
+				DE1F1332242D55850015C5AC /* Camera.mtl in Resources */,
+				DEFF70B6242D57ED00A6C0AD /* Camera.jpg in Resources */,
 				DE1F1308242D52E20015C5AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1F1305242D52E20015C5AC /* ViewController.swift in Sources */,
+				DE1F1305242D52E20015C5AC /* SceneViewController.swift in Sources */,
 				DE1F1301242D52E20015C5AC /* AppDelegate.swift in Sources */,
 				DE1F1303242D52E20015C5AC /* SceneDelegate.swift in Sources */,
+				DEFF70B4242D579800A6C0AD /* MDLMaterial+Mav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

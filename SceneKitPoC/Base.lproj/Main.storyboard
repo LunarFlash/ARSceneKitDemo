@@ -1,24 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Scene View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SceneViewController" customModule="SceneKitPoC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m1V-Ny-41N">
+                                <rect key="frame" x="0.0" y="44" width="414" height="414"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="m1V-Ny-41N" secondAttribute="height" multiplier="1:1" id="aFJ-Uk-oYn"/>
+                                </constraints>
+                            </sceneKitView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZpN-3T-ys4">
+                                <rect key="frame" x="0.0" y="823" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="refresh" id="0dQ-Gf-kQe">
+                                        <connections>
+                                            <action selector="didPressRefresh:" destination="BYZ-38-t0r" id="CM5-Er-1se"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="55f-FW-e3t"/>
+                                    <barButtonItem systemItem="action" id="b1a-xM-PJX">
+                                        <connections>
+                                            <action selector="didPressAction:" destination="BYZ-38-t0r" id="ooz-jG-qhT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ZpN-3T-ys4" secondAttribute="bottom" constant="24" id="2G1-Xv-2FG"/>
+                            <constraint firstItem="m1V-Ny-41N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7vx-0W-Ixg"/>
+                            <constraint firstItem="ZpN-3T-ys4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cia-vb-QL3"/>
+                            <constraint firstItem="ZpN-3T-ys4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fYz-uR-MEP"/>
+                            <constraint firstItem="m1V-Ny-41N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ie6-SQ-KHH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m1V-Ny-41N" secondAttribute="trailing" id="ypA-pp-Hu9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="sceneView" destination="m1V-Ny-41N" id="sCS-6v-zGL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="41.517857142857139"/>
         </scene>
     </scenes>
 </document>
