@@ -47,7 +47,7 @@ class SceneViewController: UIViewController {
         let scene = try? SCNScene(url: url, options: [.checkConsistency: true])
         sceneView.scene = scene
         sceneView.autoenablesDefaultLighting = true
-        sceneView.cameraControlConfiguration.allowsTranslation = false
+        sceneView.cameraControlConfiguration.allowsTranslation = true
         sceneView.allowsCameraControl = true
     }
 
