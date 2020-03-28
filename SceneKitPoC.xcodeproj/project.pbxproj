@@ -16,7 +16,7 @@
 		DE1F1318242D52E50015C5AC /* SceneKitPoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1317242D52E50015C5AC /* SceneKitPoCTests.swift */; };
 		DE1F1323242D52E50015C5AC /* SceneKitPoCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1322242D52E50015C5AC /* SceneKitPoCUITests.swift */; };
 		DE1F1332242D55850015C5AC /* Camera.mtl in Resources */ = {isa = PBXBuildFile; fileRef = DE1F1330242D55840015C5AC /* Camera.mtl */; };
-		DEAE714E242ED03F0061D7D5 /* F1_Diorama.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DEAE714D242ED03F0061D7D5 /* F1_Diorama.usdz */; };
+		DEAE714E242ED03F0061D7D5 /* F1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DEAE714D242ED03F0061D7D5 /* F1.usdz */; };
 		DEFF70B4242D579800A6C0AD /* MDLMaterial+Mav.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF70B3242D579800A6C0AD /* MDLMaterial+Mav.swift */; };
 		DEFF70B6242D57ED00A6C0AD /* Camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70B5242D57ED00A6C0AD /* Camera.jpg */; };
 		DEFF70BB242D5B3300A6C0AD /* Camera.obj in Resources */ = {isa = PBXBuildFile; fileRef = DEFF70BA242D5B3300A6C0AD /* Camera.obj */; };
@@ -58,7 +58,7 @@
 		DE1F1322242D52E50015C5AC /* SceneKitPoCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitPoCUITests.swift; sourceTree = "<group>"; };
 		DE1F1324242D52E50015C5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1F1330242D55840015C5AC /* Camera.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Camera.mtl; sourceTree = "<group>"; };
-		DEAE714D242ED03F0061D7D5 /* F1_Diorama.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = F1_Diorama.usdz; sourceTree = "<group>"; };
+		DEAE714D242ED03F0061D7D5 /* F1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = F1.usdz; sourceTree = "<group>"; };
 		DEFF70B3242D579800A6C0AD /* MDLMaterial+Mav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDLMaterial+Mav.swift"; sourceTree = "<group>"; };
 		DEFF70B5242D57ED00A6C0AD /* Camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Camera.jpg; sourceTree = "<group>"; };
 		DEFF70BA242D5B3300A6C0AD /* Camera.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Camera.obj; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 				DEFF70C2242D8FAC00A6C0AD /* OBJ */,
 				DEFF70BE242D69F600A6C0AD /* FILA.usdz */,
 				DEFF70BC242D5F3500A6C0AD /* Helmet.usdz */,
-				DEAE714D242ED03F0061D7D5 /* F1_Diorama.usdz */,
+				DEAE714D242ED03F0061D7D5 /* F1.usdz */,
 				DEFF70C0242D87D800A6C0AD /* Corona.usdz */,
 			);
 			path = "3d Models";
@@ -280,7 +280,7 @@
 				DEFF70BB242D5B3300A6C0AD /* Camera.obj in Resources */,
 				DE1F1332242D55850015C5AC /* Camera.mtl in Resources */,
 				DEFF70B6242D57ED00A6C0AD /* Camera.jpg in Resources */,
-				DEAE714E242ED03F0061D7D5 /* F1_Diorama.usdz in Resources */,
+				DEAE714E242ED03F0061D7D5 /* F1.usdz in Resources */,
 				DE1F1308242D52E20015C5AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

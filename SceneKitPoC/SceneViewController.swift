@@ -42,7 +42,7 @@ class SceneViewController: UIViewController {
     }
 
     func setupUSDZ() {
-        currentModelName = ["Corona", "Helmet", "FILA"].filter{ $0 != currentModelName }.randomElement()
+        currentModelName = ["Corona", "Helmet", "FILA", "F1"].filter{ $0 != currentModelName }.randomElement()
         guard let url = currentModelUrl else { return }
         let scene = try? SCNScene(url: url, options: [.checkConsistency: true])
         sceneView.scene = scene
@@ -72,7 +72,7 @@ extension SceneViewController {
 
     /**
      Load and OBJ model with custom lighting effects instead of default lighting.
-     - Note: Colin can probably resolve this with his expertise: my lack of understanding of how mtl obj and jpg works, just loading obj does not load any textures. 
+     - Note: Colin can probably resolve this with his expertise: my lack of understanding of how mtl obj and jpg works, just loading obj does not load any textures.
      */
     func setupOBJ() {
 
