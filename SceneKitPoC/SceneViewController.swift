@@ -42,7 +42,7 @@ class SceneViewController: UIViewController {
     }
 
     func setupUSDZ() {
-        currentModelName = ["Corona", "Helmet", "FILA", "F1"].filter{ $0 != currentModelName }.randomElement()
+        currentModelName = ["Corona", "Helmet", "FILA", "Jokers", "Spiderman", "Panda", "Banana", "Trump", "Rick"].filter{ $0 != currentModelName }.randomElement()
         guard let url = currentModelUrl else { return }
         let scene = try? SCNScene(url: url, options: [.checkConsistency: true])
         sceneView.scene = scene
